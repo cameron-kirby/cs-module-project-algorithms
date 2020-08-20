@@ -2,10 +2,11 @@
 Input: a List of integers where every int except one shows up twice
 Returns: an integer
 '''
-def single_number(arr):
-    # Your code here
 
-    pass
+def single_number(arr):
+    # Return the key that shows up the least amount of times
+    return min(arr, key=arr.count)
+        
 
 
 if __name__ == '__main__':
